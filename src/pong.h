@@ -15,7 +15,9 @@ namespace Pong {
     int run();
 
   private:
-    void render();
+    void loop();
+    void update();
+    void render(float interpolation);
     void process();
 
   private:
